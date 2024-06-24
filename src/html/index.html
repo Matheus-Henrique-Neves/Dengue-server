@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PI-DENGUE-FATEC-1SEM-2024</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        .navbar-nav .nav-item {
+            margin-right: 40px; /* Espaçamento entre os elementos */
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  sticky-top">
+        <!-- sticky-top -> fixo no topo com espaço com conteúdo abaixo)-->
+        <a class="navbar-brand" href="index.html"><img src="./img/OIP-removebg-preview (4).png" alt=""
+                class="Logo">Indaiatuba Zero Dengue</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html" title="Página inicial"><i class="bi bi-house-fill"></i>Visão
+                        Geral</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html" title="entre em contato"><i
+                            class="bi bi-exclamation-triangle-fill"></i>Dados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jquery.html" title="entre em contato"><i
+                            class="bi bi-geo-alt-fill"></i>Região</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="calculos.html" title="entre em contato"><i
+                            class="bi bi-info-circle-fill"></i>Ações de combate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="validacaoForm.html" title="entre em contato"><i
+                            class="bi bi-telephone-fill"></i>Contatos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="resultado"></div>
+
+    <div class="container mt-3">
+        <div class="imgManchet">
+            <img src="./img/mini_ubs-cecap-(1).jpeg" alt="">
+        </div>
+
+        <div class="container mt-3"> <!--começo da visão geral-->  
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="font-weight-bold" style="color: #003E5C;">Visão geral</h3>
+                    <p>Subtítulo Subtítulo Subtítulo</p>
+                </div>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Informação 01</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ipsum magni a ad quaerat dolore quae architecto similique labore aliquid, numquam qui at ab, commodi eius omnis sequi velit alias?</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Informação 02</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam eum totam quibusdam accusamus, in eaque dolor voluptates, hic labore culpa amet officiis consequuntur excepturi fugiat blanditiis possimus nihil architecto officia?</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Informação 03</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita commodi eos assumenda eaque natus, velit harum quo sit sequi eum deleniti ab nihil libero minima ut autem officiis vero facere.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Informação 04</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, blanditiis? Earum aperiam maxime exercitationem minus quia a animi accusamus dignissimos iusto? Corporis, sint perspiciatis impedit laudantium hic error cum sunt.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Informação 05</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor repellat illum nobis, iusto vitae nam amet hic magni deserunt excepturi totam expedita eos, consequatur provident non necessitatibus atque, minima ratione!</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Informação 06</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt officia ad esse quod a assumenda dicta eaque illo vel facere, adipisci quas minus atque! Placeat nemo assumenda amet quo obcaecati?</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- fim da row -->
+        </div> <!-- fim do container -->
+
+        <div class="row">
+            <div class="col-md-4 offset-md-4 text-center">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Monitoramento de Casos!</h5>
+                        <p class="card-text">Acompanhe em tempo real os casos de dengue na sua região através de nosso gráfico.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="col-md-4 col-sm-12 mb-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Precisando de ajuda?</h5>
+                        <p class="card-text">Consulte nossa lista de contatos e endereços de unidades de sáude na região.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 mb-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Medidas de Prevenção</h5>
+                        <p class="card-text">Proteja-se e combata a dengue. Veja dicas essenciais para se previnir e evitar a proliferação.</p>
+                    </div>
+                </div>
+            </div> -->
+        </div><!--fim row-->
+
+        <div class="container mt-3"> <!--Espaço vazio para afastar gráfico--> 
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p></p>
+                    <h3 class="font-weight-bold" style="color: #003E5C;">Gráfico</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div> <!--Fim do espaço vazio para afastar gráfico-->  
+
+        <div class="container mt-3"><!--grafico-->
+            <div>
+                <canvas id="myChart"></canvas>
+            </div>
+        </div><!--fim do grafico-->
+
+        <div class="container mt-3"> <!--Espaço vazio para afastar gráfico-->  
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p></p>
+                    <h3 class="font-weight-bold" style="color: #003E5C;"></h3>
+                    <p></p>
+                </div>
+            </div>
+        </div> <!--Fim do espaço vazio para afastar gráfico-->  
+
+        <div class="row mt-3 align-items-center">
+            <p></p>
+            <div class="col-md-6">
+                <h3 class="font-weight-bold">Unidades de Atendimento</h3>
+                <p class="subtitulo">Encontre Atendimento Médico Próximo.</p>
+        
+                <div class="col-md-12 col-sm-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Hospital HAOC</h5>
+                            <p>Endereço: Av. Francisco de Paula Leite, 399 1 - Jardim Santa Cruz</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 col-sm-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Unidade Básica de Atendimento I - Hospital Dia</h5>
+                            <p class="card-text">Endereço: Avenida Visconde de Indaiatuba, 199</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 col-sm-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Unidade Básica de Atendimento II - Cecap</h5>
+                            <p class="card-text">Endereço: Praça Vital Barnabé, 197 - Cecap</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 col-sm-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Unidade Básica de Atendimento Camargo Andrade</h5>
+                            <p class="card-text">Endereço: Rua Rudolf Theodor Scheel, 72</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-12 col-sm-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Unidade de Pronto Atendimento Dr. Paulo Kóide</h5>
+                            <p class="card-text">Endereço: Av. Eng. Fábio Roberto Barnabé, 6020 - Jardim Morada do Sol</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-6 mb-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3086.1902790017384!2d-47.213171851379364!3d-23.09272320740987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf4caac88df831%3A0x16e408cde6f20f14!2sHAOC%20-%20Hospital%20Augusto%20de%20Oliveira%20Camargo!5e0!3m2!1spt-BR!2sbr!4v1719139543606!5m2!1spt-BR!2sbr"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div> <!-- fim da row -->
+            
+        </div> <!-- fim da lista -->
+
+        <div class="container mt-3"> <!--começo das Ações-->  
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="font-weight-bold" style="color: #003E5C;">Ações de combate</h3>
+                    <p>Veja como evitar a contaminação e proliferação da dengue!</p>
+                </div>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Medidas Preventivas!</h5>
+                            <p class="card-text">Aplique repelentes regularmente na pele para se proteger contra picadas de mosquito, principalmente pela manhã e tarde.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Se previna!</h5>
+                            <p class="card-text">Coloque telas de proteção em todas as janelas e portas para impedir que os mosquitos entrem em sua casa, proporcionando uma barreira física eficaz.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Atenção e Cuidado.</h5>
+                            <p class="card-text">Em caso de sintomas como febre alta, dores no corpo e manchas vermelhas na pele. Procure ajuda médica. Consulte nossa lista.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Fique antenado!</h5>
+                            <p class="card-text">Esteja sempre informado sobre os casos de dengue em sua região. Veja nosso gráfico para maiores detalhes.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa e vizinhança.</h5>
+                            <p class="card-text">Identifique possíveis focos de dengue na sua região. O acúmulo de água em recipientes pode aumentar a proliferação do mosquito da dengue.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 col-sm-12 mb-2">
+                    <div class="card card1">
+                        <div class="card-body">
+                            <h5 class="card-title">Contate as autoridades!</h5>
+                            <p class="card-text">Em caso de dúvidas, entre em contato com orgãos como a Secretaria de Saúde. Consultem informações de contato abaixo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- fim da row -->
+        </div> <!-- fim do container -->
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Links rápidos</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="https://www.fiverr.com/share/qb8D02"><i
+                                    class="fa fa-angle-double-right"></i>Visão geral</a></li>
+                        <li><a href="https://www.fiverr.com/share/qb8D02"><i
+                                    class="fa fa-angle-double-right"></i>Dados</a></li>
+                        <li><a href="https://www.fiverr.com/share/qb8D02"><i
+                                    class="fa fa-angle-double-right"></i>Região</a></li>
+                        <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Ações de combate</a></li>
+                        <li><a href="https://www.fiverr.com/share/qb8D02"><i
+                                    class="fa fa-angle-double-right"></i>Contatos</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i
+                                class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i
+                                class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i
+                                class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i
+                                class="fa fa-google-plus"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i
+                                class="fa fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <p><u><a href="https://fatecid.com.br/cursos/" target="_blank">Fatec Indaiatuba</a></u> Trabalho de projeto integrador 1º semestre 2024.</p>
+                <p class="h6">Equipe: Adriano Santos, Felipe Lemes, João Vitor Rocha, Matheus Henrique Neves</p>
+            </div>
+            <hr>
+        </div>
+        </div>
+    </section>
+    <!-- ./Footer -->
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="../js/script.js"></script>
+</body>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="../js/testefeach.js"></script>
+
+</html>
